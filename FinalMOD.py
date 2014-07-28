@@ -5,7 +5,9 @@ Created on Wed Jul 23 2014
 @author: Wellington Viana Lobato Junior
 """
 
-import BeautifulSoup as bfs
+#Deve ser instalado primeiro os modulos BeautifulSoup e mechanize do python
+
+import BeautifulSoup as bfs 
 import mechanize
 
 navegador = mechanize.Browser()
@@ -59,4 +61,4 @@ for op in opcao_paginas:
         print "Processo finalizado!"
         break  
     
-#So funciona com o Linux!!! 
+#So funciona no Linux!!! Tenho outra versao para Windows... 
