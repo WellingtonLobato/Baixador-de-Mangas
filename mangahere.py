@@ -15,7 +15,7 @@ navegador.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; 
 
 #Esse programinha so funciona com o site: http://www.mangahere.co
 
-pgi = raw_input("Entre com o link: ") #Deve ser a primeira pagina do manga
+pgi = raw_input("Entre com o link: \nDeve ser a primeira pagina do manga\nExemplo: http://www.mangahere.co/manga/golden_boy/v01/c001/\n->") #Deve ser a primeira pagina do manga
 #Exemplo: "Entre com o link: http://www.mangahere.co/manga/golden_boy/v01/c001/"
 
 html = navegador.open(pgi)
