@@ -1,6 +1,7 @@
 Scripts para baixar automaticamente as paginas de algum manga online dos sites:
 
 =http://www.mangahere.co/
+
 =http://br.mangahost.com/
 
 Para usar, é nescessário ter instalado as bibliotecas mechanize e BeautifulSoup
