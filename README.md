@@ -8,16 +8,16 @@ Para usar, é nescessário ter instalado as bibliotecas mechanize e BeautifulSou
 
 Instalando a bibliotecas no linux (abra o terminal e entre com os comandos abaixo):
 
-$ sudo pip install mechanize 
+$ sudo pip install mechanize <br>
 $ sudo pip install beautifulsoup4
 
 Mais instruções de uso dos scripts podem ser vistas durante a execução, para executar, basta utilizar o comando:
 
-python mangahere.py
+$ python mangahere.py <br>
 
 Ou
 
-python mangahost.py
+$ python mangahost.py <br>
 
 Qualquer dúvida ou sugestão, 
 envie um e-mail para weviloju@hotmail.com
