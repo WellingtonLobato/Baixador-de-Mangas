@@ -6,9 +6,10 @@ Scripts para baixar automaticamente as paginas de algum manga online dos sites:
 
 Para usar, é nescessário ter instalado as bibliotecas mechanize e BeautifulSoup:
 
-Instalando a bibliotecas no linux (abra o terminal e entre com os comandos abaixo)
-sudo pip install mechanize 
-sudo pip install beautifulsoup4
+Instalando a bibliotecas no linux (abra o terminal e entre com os comandos abaixo):
+
+$ sudo pip install mechanize 
+$ sudo pip install beautifulsoup4
 
 Mais instruções de uso dos scripts podem ser vistas durante a execução, para executar, basta utilizar o comando:
 
