@@ -9,7 +9,7 @@ Created on Wed Jul 23 2014
 
 import BeautifulSoup as bfs 
 import mechanize
-import osgit staticmethod
+import os
 
 navegador = mechanize.Browser()
 navegador.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]  
@@ -31,7 +31,6 @@ opcao_paginas = sopa.findAll('select', {"class": "wid60"})
 opcao_paginas = str(opcao_paginas)
 
 nome_diretorio = pgi.split('/')[4]
-
 os.mkdir(nome_diretorio)
 
 opcao_paginas = opcao_paginas.replace("<option value=", "")
@@ -70,5 +69,5 @@ for op in opcao_paginas:
     except:
         print "Processo finalizado!"
         break  
-    
-#So funciona no Linux!!! Tenho outra versao para Windows... 
+
+#So funciona no Linux!!! Tenho outra versao para Windows...
